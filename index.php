@@ -1,7 +1,4 @@
 <?php 
-    $nome = 'Giuseppe';
-    $cognome = 'Failla';
-    $eta = 23;
 ?>
 
 <!DOCTYPE html>

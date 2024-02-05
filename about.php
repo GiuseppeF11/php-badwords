@@ -1,8 +1,7 @@
 <?php 
     $text1 = $_GET['text'];
 
-    $text2 = str_replace("Ciao", "***", $text1);
-    /* $text2_length = strlen($text2); */
+    $text2 = str_replace("ciao", "***", $text1);
 ?>
 
 <!DOCTYPE html>
@@ -23,6 +22,20 @@
         <div>
             <?php 
                 echo strlen($text1);
+            ?>
+        </div>
+    </div>
+
+    <h1>TESTO E LUNGHEZZA MODIFICATA</h1>
+    <div>
+        <p>
+            <?php 
+                echo $text2;
+            ?>
+        </p>
+        <div>
+            <?php 
+                echo strlen($text2);
             ?>
         </div>
     </div>
